@@ -1,0 +1,12 @@
+package trello_assessment.com.testScript;
+
+import org.testng.annotations.Test;
+
+import trello_assessment.com.utils.Base_Test;
+
+public class AllTrelloTest extends Base_Test {
+@Test
+public void LoginTest() {
+	System.out.println("Hello Trello");
+}
+}
