@@ -8,6 +8,7 @@
           <include name="openBrowser"/>
           <include name="LoginTest"/>
           <include name="setDriver"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
     </classes>

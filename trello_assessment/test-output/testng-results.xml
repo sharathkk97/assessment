@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T20:26:02 IST" name="Suite" finished-at="2021-09-16T20:26:32 IST" duration-ms="30059">
+  <suite started-at="2021-09-16T21:46:54 IST" name="Suite" finished-at="2021-09-16T21:47:13 IST" duration-ms="19486">
     <groups>
     </groups>
-    <test started-at="2021-09-16T20:26:02 IST" name="Test" finished-at="2021-09-16T20:26:13 IST" duration-ms="10759">
+    <test started-at="2021-09-16T21:46:54 IST" name="Test1" finished-at="2021-09-16T21:47:13 IST" duration-ms="19486">
       <class name="trello_assessment.com.testScript.AllTrelloTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T20:26:02 IST" name="openBrowser" finished-at="2021-09-16T20:26:12 IST" duration-ms="9872" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="LoginTest()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T20:26:12 IST" name="LoginTest" finished-at="2021-09-16T20:26:12 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T20:26:12 IST" name="closeBrowser" finished-at="2021-09-16T20:26:13 IST" duration-ms="800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
-    </test> <!-- Test -->
-    <test started-at="2021-09-16T20:26:13 IST" name="Test1" finished-at="2021-09-16T20:26:32 IST" duration-ms="19103">
-      <class name="trello_assessment.com.testScript.AllTrelloTest">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@52af26ee]" started-at="2021-09-16T20:26:02 IST" name="setDriver" finished-at="2021-09-16T20:26:02 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T21:46:54 IST" name="setDriver" finished-at="2021-09-16T21:46:54 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@52af26ee]" started-at="2021-09-16T20:26:13 IST" name="openBrowser" finished-at="2021-09-16T20:26:30 IST" duration-ms="16933" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T21:46:54 IST" name="openBrowser" finished-at="2021-09-16T21:47:11 IST" duration-ms="17401" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,27 +22,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="LoginTest()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@52af26ee]" started-at="2021-09-16T20:26:30 IST" name="LoginTest" finished-at="2021-09-16T20:26:30 IST" duration-ms="4" status="PASS">
+        <test-method signature="LoginTest()[pri:-1, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T21:47:11 IST" name="LoginTest" finished-at="2021-09-16T21:47:11 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@52af26ee]" started-at="2021-09-16T20:26:30 IST" name="closeBrowser" finished-at="2021-09-16T20:26:32 IST" duration-ms="2136" status="FAIL">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:trello_assessment.com.testScript.AllTrelloTest@16a0ee18]" started-at="2021-09-16T21:47:11 IST" name="closeBrowser" finished-at="2021-09-16T21:47:13 IST" duration-ms="1969" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-QFMEF9J', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 18068, moz:profile: C:\Users\Qapitol QA\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 88dd7e9d-b915-4eac-91ca-8110531cce0e]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12740, moz:profile: C:\Users\Qapitol QA\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac462de1-9d4c-471e-a3ed-3c5102358ea7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-QFMEF9J', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 18068, moz:profile: C:\Users\Qapitol QA\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 88dd7e9d-b915-4eac-91ca-8110531cce0e
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12740, moz:profile: C:\Users\Qapitol QA\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac462de1-9d4c-471e-a3ed-3c5102358ea7
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
