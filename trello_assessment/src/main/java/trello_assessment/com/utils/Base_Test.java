@@ -23,7 +23,7 @@ public class Base_Test {
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://trello.com/");
 	}
 	@BeforeSuite
