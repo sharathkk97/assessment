@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -13,7 +14,8 @@ import org.testng.annotations.Parameters;
 
 public class Base_Test {
 
-	public WebDriver driver;
+	public static WebDriver driver;
+
 	@BeforeMethod 
 	@Parameters({"browser"})
 	public void openBrowser(@Optional("chrome") String browser) {
@@ -35,6 +37,6 @@ public class Base_Test {
 	@AfterTest
 	public void closeBrowser() {
 		driver.close();
-		driver.quit();
+		
 	}
 }
