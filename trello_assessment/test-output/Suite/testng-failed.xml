@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite configfailurepolicy="continue" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ChromeTest1(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="trello_assessment.com.testScript.AllTrelloTest">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="LoginTest"/>
-          <include name="closeBrowser"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
-    </classes>
-  </test> <!-- ChromeTest1(failed) -->
-  <test thread-count="5" name="ChromeTest2(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="trello_assessment.com.testScript.AllTrelloTest">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="LoginTest"/>
-          <include name="closeBrowser"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
-    </classes>
-  </test> <!-- ChromeTest2(failed) -->
-  <test thread-count="5" name="FirefoxTest1(failed)">
+  <test thread-count="5" name="FirefoxTest2(failed)">
     <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="trello_assessment.com.testScript.AllTrelloTest">
@@ -39,18 +13,5 @@
         </methods>
       </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
     </classes>
-  </test> <!-- FirefoxTest1(failed) -->
-  <test thread-count="5" name="FirefoxTest3(failed)">
-    <parameter name="browser" value="Firefox"/>
-    <classes>
-      <class name="trello_assessment.com.testScript.AllTrelloTest">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="LoginTest"/>
-          <include name="closeBrowser"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
-    </classes>
-  </test> <!-- FirefoxTest3(failed) -->
+  </test> <!-- FirefoxTest2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
