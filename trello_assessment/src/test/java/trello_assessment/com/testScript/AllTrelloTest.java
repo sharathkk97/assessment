@@ -31,7 +31,7 @@ public void LoginTest() throws InterruptedException {
 public AllTrelloTest() {
 }
 public void CreateBoard(WebDriver driver) throws InterruptedException {
-Thread.sleep(15000);
+Thread.sleep(20000);
 driver.findElement(By.xpath("//p[text()='Create']")).click();
 driver.findElement(By.xpath("//button[@class='_3Qtx4lodxp9J0E']/span[text()='Create board']")).click();
 driver.findElement(By.xpath("//input[@placeholder='Add board title']")).sendKeys("Goa Trip");

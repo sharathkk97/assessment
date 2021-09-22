@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite configfailurepolicy="continue" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="FirefoxTest2(failed)">
-    <parameter name="browser" value="Firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="trello_assessment.com.testScript.AllTrelloTest">
         <methods>
@@ -13,5 +12,5 @@
         </methods>
       </class> <!-- trello_assessment.com.testScript.AllTrelloTest -->
     </classes>
-  </test> <!-- FirefoxTest2(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
